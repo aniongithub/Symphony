@@ -1,0 +1,40 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Symphony.Core", "Symphony.Core\Symphony.Core.csproj", "{B436979D-1A36-41F6-BD8B-EC2E79502A44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composer", "Composer\Composer.csproj", "{ECE6EF25-4272-4B10-BEE0-B3661D3E3F9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conductor", "Conductor\Conductor.csproj", "{916E87F5-232F-4494-AB32-015504FDDA5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{8D31D796-5B78-4A6A-BED7-0FDF148A4F67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veldrid.Fluent", "Veldrid.Fluent\Veldrid.Fluent.csproj", "{22A7AD0B-8599-4462-8179-62231F9CB786}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B436979D-1A36-41F6-BD8B-EC2E79502A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B436979D-1A36-41F6-BD8B-EC2E79502A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B436979D-1A36-41F6-BD8B-EC2E79502A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B436979D-1A36-41F6-BD8B-EC2E79502A44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECE6EF25-4272-4B10-BEE0-B3661D3E3F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECE6EF25-4272-4B10-BEE0-B3661D3E3F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECE6EF25-4272-4B10-BEE0-B3661D3E3F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECE6EF25-4272-4B10-BEE0-B3661D3E3F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{916E87F5-232F-4494-AB32-015504FDDA5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{916E87F5-232F-4494-AB32-015504FDDA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{916E87F5-232F-4494-AB32-015504FDDA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{916E87F5-232F-4494-AB32-015504FDDA5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22A7AD0B-8599-4462-8179-62231F9CB786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22A7AD0B-8599-4462-8179-62231F9CB786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22A7AD0B-8599-4462-8179-62231F9CB786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22A7AD0B-8599-4462-8179-62231F9CB786}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{22A7AD0B-8599-4462-8179-62231F9CB786} = {8D31D796-5B78-4A6A-BED7-0FDF148A4F67}
+	EndGlobalSection
+EndGlobal
